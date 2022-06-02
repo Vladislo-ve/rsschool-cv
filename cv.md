@@ -1,6 +1,6 @@
 ![my_foto](https://user-images.githubusercontent.com/105035243/171460383-ee7343ed-d23b-46cb-8c14-6805d4657e50.jpg)  
 # Vladislav Bezlyudov #  
-### Contact informations ###  
+### Contact information ###  
 **Phone:** +375(25)604-57-76  
 **E-mail:** vlad.beznet@gmail.com  
 **Telegram:** @Vladislo_ve  
