@@ -85,21 +85,21 @@ nav a:hover{
     line-height: 1;
 }
 
-.title-name {
+.title__name {
     font-size: 80px;
     font-family: "OS-bold";
     letter-spacing: 5px;
     margin: 0;
 }
 
-.title-firstname {
+.title__firstname {
     font-size: 70px;
     font-weight: normal;
     margin: 0;
     letter-spacing: 10px;
 }
 
-.title-prof {
+.title__prof {
     font-size: 30px;
     font-weight: normal;
     margin-top: 20px;
@@ -116,28 +116,78 @@ main {
     flex-direction: column;
     background-color: #3c3b3b;
     color: #fefefe;
-    padding-left: 55px;
+    padding-left: 24px;
 }
 
-.contact {
-    
+.contact h2, .skills h2, .language h2{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #fefefe;
 }
 
-.contactsme {
+.icon {
+    width: 30px;
+    height: 30px;
+    filter: invert(99%) sepia(70%) saturate(4948%) hue-rotate(357deg) brightness(104%) contrast(106%);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.icon-phone {
+    background-image: url(assets/icons/phone.svg);
+}
+
+.icon-email {
+    background-image: url(assets/icons/email.svg);
+}
+
+.icon-telegram {
+    background-image: url(assets/icons/telegram.svg);
+}
+
+.icon-git {
+    background-image: url(assets/icons/github.svg);
+}
+
+.icon-discord {
+    background-image: url(assets/icons/discord.svg);
+}
+
+.link {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.contact__list {
     list-style-type: none;
     padding: 0;
 }
 
-.skills {
-    
+.contact__list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px;
 }
 
-.language {
-    
+.contact__list li:hover .link {
+    text-decoration: underline;
 }
 
-.hr {
-    height: 5px;
+.contact__list li:hover .icon {
+    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(114deg) brightness(117%) contrast(99%);
+}
+
+.skills ul, .language ul, .contact__list {
+    list-style: none;
+    font-size: 20px; 
+  }
+
+.skills li::before, .language li::before {
+    content: "\2022";  
+    color: yellow; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em; 
 }
 
 .rightside {
