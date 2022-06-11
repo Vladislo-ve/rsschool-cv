@@ -13,48 +13,37 @@
             <img class="image" src="myphoto.png" alt="Vladislav Bezlyudov">
         </figure>
         <section class="title">
-            <h1 class="h1">Vladislav</h1>
-            <h2>Bezlyudov</h2>
-            <p class="jobtitle">Master of construction works</p>
+            <h1 class="h1title">Vladislav</h1>
+            <h2 class="h2title">Bezlyudov</h2>
+            <p class="ptitle">Master of construction works</p>
         </section>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="#contact">Contacts</a>
-                </li>
-                <li>
-                    <a href="#about">About me</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#code">Code</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a></li>
-                <li>
-                    <a href="#language">Language</a>
-                </li>
-            </ul>
-        </nav>
     </header>
-<main>
+<nav class="nav">
+        <ul>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#language">Language</a></li>
+        </ul>
+</nav>
+<main class="main">
     <div class="leftside">
         <section class="contact" id="contact">
-            <ul class="contactslink">
-                <li>Phone: +375(25)604-57-76</li>
-                <li>E-mail: vlad.beznet@gmail.com</li>
-                <li>Telegram: @Vladislo_ve</li>
-                <li>GitHub: Vladislo-ve https://github.com/Vladislo-ve</li>
-                <li>Discord: Vladislav(@Vladislo-ve)</li>
+            <h2>CONTACT ME</h2>
+            <hr class="hrls">
+            <ul class="contactsme">
+                <li><img width="50px" height="50px" src="image/telephone.png" alt="telephone"> +375(25)604-57-76</li>
+                <li><img width="50px" height="50px" src="image/email.png" alt="E-mail"> vlad.beznet@gmail.com</li>
+                <li><img width="50px" height="50px" src="image/telegram.png" alt="Telegram"> @Vladislo_ve</li>
+                <li><img width="50px" height="50px" src="image/github.png" alt="GitHub"><a href="https://github.com/Vladislo-ve">Vladislo-ve</a></li>
+                <li><img width="50px" height="50px" src="image/discord.png" alt="Discord"> Vladislav(@Vladislo-ve)</li>
             </ul>
         </section>
         <section class="skills" id="skills">
-            Skills:
+            <h2>SKILLS</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -62,7 +51,7 @@
             </ul>
         </section>
         <section class="language" id="language">
-            Language:
+            <h2>LANGUAGE</h2>
             <ul>
                 <li>English - (A1)</li>
                 <li>Russian - (C)</li>
@@ -71,18 +60,18 @@
     </div>
     <div class="rightside">
         <section class="mySelf" id="about">
-            <h2 class="h2">About Myself</h2>
+            <h2 class="h2">ABOUT MYSELF</h2>
             <p>I want to learn JS in RSSchool to become a front-end developer. I believe in my strength.</p>
         </section>
         <section class="experience" id="experience">
-            <h2 class="h2">Experience</h2>
+            <h2 class="h2">EXPERIENCE</h2>
             <ul>
                 <li>2019-2021 Master of construction works in AirLight, c. Grodno</li>
                 <li>2021-u.n. Master of construction works in TRIS, c. Brest</li>
             </ul>
         </section>
         <section class="education" id="education">
-            <h2>Education</h2>
+            <h2>EDUCATION</h2>
             <ul>
                 <li>2014-2019 Mogilev State University of Food Technology, air conditioning equipment</li>
                 <li>2017-2019 Institute for Advanced Studies and Retraining, accounting and control in industry</li>
@@ -90,14 +79,14 @@
             </ul>
         </section>
         <section class="code" id="code">
-            <h2>Code Example</h2>
+            <h2>CODE EXAMPLE</h2>
             <pre>
                 <code>
                     function showResult() {
                         if (A != undefined && t != undefined) {
                            var infoBlock = document.getElementById("result");
                            var result = N(A, t);
-                           infoBlock.innerHTML = "div N=" + result + "/div";
+                           infoBlock.innerHTML = "<div> N=" + result + "</div>";
                            infoBlock.style.textAlign = "center";
                            infoBlock.style.color = "white";
                            infoBlock.style.fontSize = 25 + "px"; 
