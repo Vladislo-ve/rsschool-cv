@@ -1,107 +1,107 @@
 <!DOCTYPE html>
-<html class="html" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vladislav Bezlyudov</title>
-</head>
-<body class="body">
-    <header class="header">
-        <figure class="figure">
-            <img class="image" src="myphoto.png" alt="Vladislav Bezlyudov">
-        </figure>
-        <section class="title">
-            <h1 class="h1title">Vladislav</h1>
-            <h2 class="h2title">Bezlyudov</h2>
-            <p class="ptitle">Master of construction works</p>
-        </section>
-    </header>
-<nav class="nav">
-        <ul>
-            <li><a href="#contact">Contacts</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#code">Code</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#language">Language</a></li>
-        </ul>
-</nav>
-<main class="main">
-    <div class="leftside">
-        <section class="contact" id="contact">
-            <h2>CONTACT ME</h2>
-            <hr class="hrls">
-            <ul class="contactsme">
-                <li><img width="50px" height="50px" src="assets/icons/phone.svg" alt="telephone"> +375(25)604-57-76</li>
-                <li><img width="50px" height="50px" src="assets/icons/email.svg" alt="E-mail"> vlad.beznet@gmail.com</li>
-                <li><img width="50px" height="50px" src="assets/icons/telegram.svg" alt="Telegram"> @Vladislo_ve</li>
-                <li><img width="50px" height="50px" src="image/github.png" alt="GitHub"><a href="https://github.com/Vladislo-ve">Vladislo-ve</a></li>
-                <li><img width="50px" height="50px" src="image/discord.png" alt="Discord"> Vladislav(@Vladislo-ve)</li>
-            </ul>
-        </section>
-        <section class="skills" id="skills">
-            <h2>SKILLS</h2>
-            <hr class="hrls">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-            </ul>
-        </section>
-        <section class="language" id="language">
-            <h2>LANGUAGE</h2>
-            <hr class="hrls">
-            <ul>
-                <li>English - (A1)</li>
-                <li>Russian - (C)</li>
-            </ul>
-        </section>
-    </div>
-    <div class="rightside">
-        <section class="mySelf" id="about">
-            <h2 class="h2">ABOUT MYSELF</h2>
-            <p>I want to learn JS in RSSchool to become a front-end developer. I believe in my strength.</p>
-        </section>
-        <section class="experience" id="experience">
-            <h2 class="h2">EXPERIENCE</h2>
-            <ul>
-                <li>2019-2021 Master of construction works in AirLight, c. Grodno</li>
-                <li>2021-u.n. Master of construction works in TRIS, c. Brest</li>
-            </ul>
-        </section>
-        <section class="education" id="education">
-            <h2>EDUCATION</h2>
-            <ul>
-                <li>2014-2019 Mogilev State University of Food Technology, air conditioning equipment</li>
-                <li>2017-2019 Institute for Advanced Studies and Retraining, accounting and control in industry</li>
-                <li>2019-2021 Brest State Technical University, heat and gas supply, ventilation and air protection</li>
-            </ul>
-        </section>
-        <section class="code" id="code">
-            <h2>CODE EXAMPLE</h2>
-            <pre>
-                <code>
-                    function showResult() {
-                        if (A != undefined && t != undefined) {
-                           var infoBlock = document.getElementById("result");
-                           var result = N(A, t);
-                           infoBlock.innerHTML = "<div> N=" + result + "</div>";
-                           infoBlock.style.textAlign = "center";
-                           infoBlock.style.color = "white";
-                           infoBlock.style.fontSize = 25 + "px"; 
-                        }
-                </code>
-            </pre>
-        </section>
-    </div>
-</main>
-<footer>
-    <a class="footer_github" href="https://github.com/Vladislo-ve"><img src="github.png" width="50" height="50" alt="My GitHub">My GitHub</a>
-    <p class="footer_year">2022</p>
-    <a class="footer_rss" href="https://rs.school/"><img src="rsschool.png" width="150" height="50" alt="RSSchool"></a>
-</footer>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vladislav Bezlyudov</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#language">Language</a></li>
+                </ul>
+            </nav>
+            <section class="wrapper">
+                <img class="image" src="assets/img/myphoto.png" alt="Vladislav Bezlyudov">
+                <div class="title">
+                    <h1 class="title-name">Vladislav</h1>
+                    <h2 class="title-firstname">Bezlyudov</h2>
+                    <p class="title-prof">Master of construction works</p>
+                </div>
+            </section>
+        </header>
+    <main>
+        <div class="leftside">
+            <section class="contact" id="contact">
+                <h2>CONTACT ME</h2>
+                <hr>
+                <ul class="contactsme">
+                    <li><img width="50px" height="50px" src="assets/icons/phone.svg" alt="telephone"> +375(25)604-57-76</li>
+                    <li><img width="50px" height="50px" src="assets/icons/email.svg" alt="E-mail"> vlad.beznet@gmail.com</li>
+                    <li><img width="50px" height="50px" src="assets/icons/telegram.svg" alt="Telegram"> @Vladislo_ve</li>
+                    <li><img width="50px" height="50px" src="image/github.png" alt="GitHub"><a href="https://github.com/Vladislo-ve">Vladislo-ve</a></li>
+                    <li><img width="50px" height="50px" src="image/discord.png" alt="Discord"> Vladislav(@Vladislo-ve)</li>
+                </ul>
+            </section>
+            <section class="skills" id="skills">
+                <h2>SKILLS</h2>
+                <hr>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </section>
+            <section class="language" id="language">
+                <h2>LANGUAGE</h2>
+                <hr>
+                <ul>
+                    <li>English - (A1)</li>
+                    <li>Russian - (C)</li>
+                </ul>
+            </section>
+        </div>
+        <div class="rightside">
+            <section class="mySelf" id="about">
+                <h2 class="h2">ABOUT MYSELF</h2>
+                <p>I want to learn JS in RSSchool to become a front-end developer. I believe in my strength.</p>
+            </section>
+            <section class="experience" id="experience">
+                <h2 class="h2">EXPERIENCE</h2>
+                <ul>
+                    <li>2019-2021 Master of construction works in AirLight, c. Grodno</li>
+                    <li>2021-u.n. Master of construction works in TRIS, c. Brest</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>2014-2019 Mogilev State University of Food Technology, air conditioning equipment</li>
+                    <li>2017-2019 Institute for Advanced Studies and Retraining, accounting and control in industry</li>
+                    <li>2019-2021 Brest State Technical University, heat and gas supply, ventilation and air protection</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2>CODE EXAMPLE</h2>
+                <pre>
+                    <code>
+                        function showResult() {
+                            if (A != undefined && t != undefined) {
+                            var infoBlock = document.getElementById("result");
+                            var result = N(A, t);
+                            infoBlock.innerHTML = "<div> N=" + result + "</div>";
+                            infoBlock.style.textAlign = "center";
+                            infoBlock.style.color = "white";
+                            infoBlock.style.fontSize = 25 + "px"; 
+                            }
+                    </code>
+                </pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a class="footer_github" href="https://github.com/Vladislo-ve"><img src="github.png" width="50" height="50" alt="My GitHub">My GitHub</a>
+        <p class="footer_year">2022</p>
+        <a class="footer_rss" href="https://rs.school/"><img src="rsschool.png" width="150" height="50" alt="RSSchool"></a>
+    </footer>
+    </body>
 </html>
