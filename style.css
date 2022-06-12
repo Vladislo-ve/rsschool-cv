@@ -250,7 +250,6 @@ main {
     margin: 0;
     text-align: justify;
     color: #3c3b3b;
-    word-wrap: wrap;
 }
 
 .education ul {
@@ -258,7 +257,6 @@ main {
     padding: 0;
     list-style: none;
 }
-
 
 .edu__list {
     display: flex;
