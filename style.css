@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "OS-Bold";
+    src: url(assets/font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "OS-Light";
+    src: url(assets/font/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "OS-Regular";
+    src: url(assets/font/OpenSans-Regular.ttf);
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "OS-Regular", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #e5e6e7;
+}
+
+nav {
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 0px 10px;
+    line-height: 20px;
+    
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 300px;
+    height: 360px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 65px;
+    line-height: 1;
+    color: #3c3b3b;
+}
+
+.title__name {
+    margin: 0;
+    font-family: "OS-bold";
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.title__firstname {
+    margin: 0;
+    font-size: 70px;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+.title__prof {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.left__side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    color: #fefefe;
+    background-color: #3c3b3b;
+}
+
+.contact h2, .skills h2, .language h2{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #fefefe;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    filter: invert(99%) sepia(70%) saturate(4948%) hue-rotate(357deg) brightness(104%) contrast(106%);
+    cursor: pointer;
+}
+
+.icon-phone {
+    background-image: url(assets/icons/phone.svg);
+}
+
+.icon-email {
+    background-image: url(assets/icons/email.svg);
+}
+
+.icon-telegram {
+    background-image: url(assets/icons/telegram.svg);
+}
+
+.icon-git {
+    background-image: url(assets/icons/github.svg);
+}
+
+.icon-discord {
+    background-image: url(assets/icons/discord.svg);
+}
+
+.link {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.contact__list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact__list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px;
+}
+
+.contact__list li:hover .link {
+    text-decoration: underline;
+}
+
+.contact__list li:hover .icon {
+    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(114deg) brightness(117%) contrast(99%);
+}
+
+.skills ul, .language ul, .contact__list {
+    font-size: 20px;
+    list-style: none;
+}
+
+.skills li::before, .language li::before {
+    content: "\2022";  
+    color: #FFFF00; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em; 
+}
+
+.right__side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-right: 20px;   
+    color: #3c3b3b;
+    background-color: #fefefe;
+}
+
+.h2 {
+    padding-bottom: 15px;
+    border-bottom:2px solid #3c3b3b;
+}
+
+.title__about {
+    margin: 0;
+    font-family: "OS-Regular";
+    font-size: 17px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.experience {
+    font-family: "OS-Regular";
+    font-size: 17px;
+}
+
+.experience__job {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left__part1, .left__part2 {
+    margin-right: 30px;
+    font-family: "OS-Bold";
+    font-size: 15px;
+    text-align: center;
+    color: #3c3b3b;
+    white-space: nowrap; 
+}
+
+.left__part1 p {
+    margin: 0;
+}
+
+.left__part2 p {
+    margin: 255px 0 0 0;
+}
+
+.right__part h3{
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #3c3b3b;
+}
+
+.right__part p {
+    margin: 0;
+    text-align: justify;
+    color: #3c3b3b;
+}
+
+.education ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.edu__list {
+    display: flex;
+    align-items: center;
+}
+
+.year {
+    margin-right: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.year p {
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+.univers {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.univers p {
+    margin: 10px 0 0 0;
+}
+
+.code pre {
+    margin: 0;
+    font-size: 13px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e6e7;
+}
+
+.footer_github {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.footer_year {
+    margin: 0;
+    padding: 0;
+    color: #3c3b3b;
+}
+
+.footer_rss {
+    margin-top: 5px;
+    padding: 0;    
+}
