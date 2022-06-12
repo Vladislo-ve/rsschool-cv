@@ -289,3 +289,26 @@ main {
     margin: 0;
     font-size: 13px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e6e7;
+}
+
+.footer_github {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.footer_year {
+    color: #3c3b3b;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_rss {
+    margin-top: 5px;
+    padding: 0;    
+}
