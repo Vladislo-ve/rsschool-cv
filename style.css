@@ -56,9 +56,9 @@ nav li {
 }
 
 nav a {
-    color: black;
     font-size: 20px;
     text-decoration: none;
+    color: black;
 }
 
 nav a:hover{
@@ -79,29 +79,29 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #3c3b3b;
     margin-left: 65px;
     line-height: 1;
+    color: #3c3b3b;
 }
 
 .title__name {
-    font-size: 80px;
-    font-family: "OS-bold";
-    letter-spacing: 5px;
     margin: 0;
+    font-family: "OS-bold";
+    font-size: 80px;
+    letter-spacing: 5px;
 }
 
 .title__firstname {
+    margin: 0;
     font-size: 70px;
     font-weight: normal;
-    margin: 0;
     letter-spacing: 10px;
 }
 
 .title__prof {
+    margin-top: 20px;
     font-size: 30px;
     font-weight: normal;
-    margin-top: 20px;
     letter-spacing: 10px;
 }
 
@@ -113,9 +113,9 @@ main {
 .left__side {
     display: flex;
     flex-direction: column;
-    background-color: #3c3b3b;
-    color: #fefefe;
     padding-left: 24px;
+    color: #fefefe;
+    background-color: #3c3b3b;
 }
 
 .contact h2, .skills h2, .language h2{
@@ -126,9 +126,9 @@ main {
 .icon {
     width: 30px;
     height: 30px;
+    margin-right: 5px;
     filter: invert(99%) sepia(70%) saturate(4948%) hue-rotate(357deg) brightness(104%) contrast(106%);
     cursor: pointer;
-    margin-right: 5px;
 }
 
 .icon-phone {
@@ -157,8 +157,8 @@ main {
 }
 
 .contact__list {
-    list-style-type: none;
     padding: 0;
+    list-style-type: none;
 }
 
 .contact__list li {
@@ -176,13 +176,13 @@ main {
 }
 
 .skills ul, .language ul, .contact__list {
+    font-size: 20px;
     list-style: none;
-    font-size: 20px; 
 }
 
 .skills li::before, .language li::before {
     content: "\2022";  
-    color: yellow; 
+    color: #FFFF00; 
     font-weight: bold; 
     display: inline-block; 
     width: 1em;
@@ -192,28 +192,28 @@ main {
 .right__side {
     display: flex;
     flex-direction: column;
-    background-color: #fefefe;
-    color: #3c3b3b;
     padding-left: 65px;
     padding-right: 20px;   
+    color: #3c3b3b;
+    background-color: #fefefe;
 }
 
 .h2 {
-    border-bottom:2px solid #3c3b3b;
     padding-bottom: 15px;
+    border-bottom:2px solid #3c3b3b;
 }
 
 .title__about {
+    margin: 0;
+    font-family: "OS-Regular";
+    font-size: 17px;
     text-align: justify;
     font-weight: normal;
-    font-size: 17px;
-    font-family: "OS-Regular";
-    margin: 0;
 }
 
 .experience {
-    font-size: 17px;
     font-family: "OS-Regular";
+    font-size: 17px;
 }
 
 .experience__job {
@@ -225,11 +225,11 @@ main {
 
 .left__part1, .left__part2 {
     margin-right: 30px;
-    white-space: nowrap;
-    text-align: center;
     font-family: "OS-Bold";
     font-size: 15px;
+    text-align: center;
     color: #3c3b3b;
+    white-space: nowrap; 
 }
 
 .left__part1 p {
@@ -248,15 +248,15 @@ main {
 
 .right__part p {
     margin: 0;
+    text-align: justify;
     color: #3c3b3b;
     word-wrap: wrap;
-    text-align: justify;
 }
 
 .education ul {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 
@@ -266,9 +266,9 @@ main {
 }
 
 .year {
-    white-space: nowrap;
     margin-right: 30px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .year p {
@@ -303,9 +303,9 @@ footer {
 }
 
 .footer_year {
-    color: #3c3b3b;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    color: #3c3b3b;
 }
 
 .footer_rss {
