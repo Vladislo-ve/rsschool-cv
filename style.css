@@ -110,7 +110,7 @@ main {
     justify-content: space-between;   
 }
 
-.leftside {
+.left__side {
     display: flex;
     flex-direction: column;
     background-color: #3c3b3b;
@@ -189,13 +189,13 @@ main {
     margin-left: -1em; 
 }
 
-.rightside {
+.right__side {
     display: flex;
     flex-direction: column;
     background-color: #fefefe;
     color: #3c3b3b;
-    margin-left: 65px;
-    margin-right: 20px;   
+    padding-left: 65px;
+    padding-right: 20px;   
 }
 
 .h2 {
@@ -204,9 +204,16 @@ main {
 }
 
 .title__about {
+    text-align: justify;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 17px;
+    font-family: "OS-Regular";
     margin: 0;
+}
+
+.experience {
+    font-size: 17px;
+    font-family: "OS-Regular";
 }
 
 .experience__job {
@@ -230,9 +237,8 @@ main {
 }
 
 .left__part2 p {
-    margin: 220px 0 0 0;
+    margin: 255px 0 0 0;
 }
-
 
 .right__part h3{
     margin: 0 0 10px 0;
@@ -265,7 +271,21 @@ main {
     text-align: center;
 }
 
+.year p {
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+
 .univers {
     font-size: 15px;
     text-align: justify;
+}
+
+.univers p {
+    margin: 10px 0 0 0;
+}
+
+.code pre {
+    margin: 0;
+    font-size: 13px;
 }
