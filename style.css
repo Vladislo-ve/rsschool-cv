@@ -33,7 +33,6 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: flex-start;
     background-color: #e5e6e7;
 }
@@ -81,7 +80,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     color: #3c3b3b;
-    margin-left: 15px;
+    margin-left: 65px;
     line-height: 1;
 }
 
@@ -179,7 +178,7 @@ main {
 .skills ul, .language ul, .contact__list {
     list-style: none;
     font-size: 20px; 
-  }
+}
 
 .skills li::before, .language li::before {
     content: "\2022";  
@@ -193,9 +192,80 @@ main {
 .rightside {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    
-    
+    background-color: #fefefe;
+    color: #3c3b3b;
+    margin-left: 65px;
+    margin-right: 20px;   
+}
+
+.h2 {
+    border-bottom:2px solid #3c3b3b;
+    padding-bottom: 15px;
+}
+
+.title__about {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+.experience__job {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left__part1, .left__part2 {
+    margin-right: 30px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "OS-Bold";
+    font-size: 15px;
+    color: #3c3b3b;
+}
+
+.left__part1 p {
+    margin: 0;
+}
+
+.left__part2 p {
+    margin: 220px 0 0 0;
 }
 
 
+.right__part h3{
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #3c3b3b;
+}
+
+.right__part p {
+    margin: 0;
+    color: #3c3b3b;
+    word-wrap: wrap;
+    text-align: justify;
+}
+
+.education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.edu__list {
+    display: flex;
+    align-items: center;
+}
+
+.year {
+    white-space: nowrap;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.univers {
+    font-size: 15px;
+    text-align: justify;
+}
